@@ -5,6 +5,20 @@ var logoHeight = $(".logo").height();
 var logoWidth = $(".logo").width();
 var bannerHeight = $(".banner").height();
 $(document).ready(function() {
+		if($(window).height() > $(window).width()) {
+			$(".title").css("font-size", "2.4em");
+			$(".title").css("width", "100%");
+			$(".info").html('Scroll <i class="material-icons">keyboard_double_arrow_down</i> to Navigate');
+			$(".info").css("font-size", "1.7em");
+			$(".screen-image-container").css("height", "36vh");
+			$(".screen-title").css("font-size", "3.6em");
+			$(".screen-title").css("margin-bottom", "10%");
+			$(".screen-description").css("font-size", "2.6em");
+			$(".screen-description").css("width", "80%");
+			$(".screen-description").css("margin-bottom", "10%");
+			$(".contact-labels").css("font-size", "2.9em");
+			$(".contact-link").css("font-size", "1.4em");
+		}
         $(window).scrollTop(0);
         $(".loader").fadeOut();
         trackerInit = document.querySelector("#tracker").getBoundingClientRect().top;
