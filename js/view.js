@@ -13,7 +13,7 @@ $(document).ready(function() {
 			$(".screen-image-container").css("height", "36vh");
 			$(".screen-title").css("font-size", "3.6em");
 			$(".screen-title").css("margin-bottom", "10%");
-			$(".screen-description").css("font-size", "2.6em");
+			$(".screen-description").css("font-size", "2.0em");
 			$(".screen-description").css("width", "80%");
 			$(".screen-description").css("margin-bottom", "10%");
 			$(".contact-labels").css("font-size", "2.9em");
