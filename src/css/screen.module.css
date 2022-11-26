@@ -1,0 +1,75 @@
+/* Screen Pages */
+
+.screen {
+    width: 100%;
+}
+
+.verticalDottedLine {
+    border-left: 2px dotted grey;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+}
+
+.screenTitle {
+     color: white;
+     font-family: "Poppins", sans-serif;
+     text-align: left;
+     margin-left: 60px;
+     font-size: 2.6em;
+     padding-top: 4%;
+	 margin-bottom: 20px;
+}
+
+.screenDescription {
+     color: white;
+     font-family: "Poppins", sans-serif;
+     text-align: left;
+     margin-left: 60px;
+     font-size: 1.1em;
+     line-height: 1.6;
+     width: 60%;
+     margin-bottom: 28px;
+     white-space: pre-line;
+}
+
+.screenImageContainer {
+    width: 100%;
+    height: 46vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    z-index: -2;
+}
+
+.screenTitleMobile {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 3.6em;
+    padding-top: 4%;
+    margin-bottom: 10%;
+}
+
+.screenDescriptionMobile {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 1.8em;
+    line-height: 1.6;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.screenImageContainerMobile {
+   width: 100%;
+   height: 36vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-blend-mode: overlay;
+   z-index: -2;
+}
